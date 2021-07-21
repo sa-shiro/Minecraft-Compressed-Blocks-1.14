@@ -4,8 +4,8 @@ import net.minecraft.util.text.Style;
 import net.minecraft.util.text.TextFormatting;
 
 public class Compression {
-    protected String blockCount;
-    protected Style style;
+    private String blockCount;
+    private Style style;
 
     public Compression() {
         style = Style.EMPTY;

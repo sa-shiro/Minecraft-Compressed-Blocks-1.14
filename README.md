@@ -3,7 +3,7 @@
 A Block Compression mod for Minecraft 1.14.4, 1.15.2 and 1.16
 
 Compress your Blocks to make more free space (up to **3.486.784.101** Blocks in just ***one single Block***)<br>
-This mod currently features <b>127</b> compressed minecraft blocks as well as <b>36</b> custom items and tools.
+This mod currently features <b>128</b> compressed minecraft blocks as well as <b>24</b> compressed items.
 
 [curseforge link](https://www.curseforge.com/minecraft/mc-mods/cb-compressed-blocks)
 
@@ -142,46 +142,35 @@ This mod currently features <b>127</b> compressed minecraft blocks as well as <b
 * QUARTZ_BLOCK
 * HAY_BLOCK
 * GLASS
+* MAGMA_BLOCK
 
 </details><br>
 <details>
-    <summary><b>Custom Items and Tools</b></summary><br>
+    <summary><b>Custom Items</b></summary><br>
 
-* Hardened Wooden Pickaxe
-* Hardened Wooden Axe
-* Hardened Wooden Shovel
-* Hardened Wooden Hoe
-* Hardened Wooden Sword
-* Hardened Pickaxe
-* Hardened Axe
-* Hardened Shovel
-* Hardened Hoe
-* Hardened Sword
-* Hardened Iron Pickaxe
-* Hardened Iron Axe
-* Hardened Iron Shovel
-* Hardened Iron Hoe
-* Hardened Iron Sword
-* Hardened Golden Pickaxe
-* Hardened Golden Axe
-* Hardened Golden Shovel
-* Hardened Golden Hoe
-* Hardened Golden Sword
-* Hardened Diamond Pickaxe
-* Hardened Diamond Axe
-* Hardened Diamond Shovel
-* Hardened Diamond Hoe
-* Hardened Diamond Sword
-* Compressed Stick
-* Compressed Wood
-* Compressed Iron
-* Compressed Gold
-* Compressed Diamond
-* Sack of Ender Pearls
-* Huge Sack of Ender Pearls
-* Sack of Ender Eyes
-* Huge Sack of Ender Eyes
-* Sack of Eggs
-* Huge Sack of Eggs
+* apples
+* arrows
+* beetroots
+* beetroot_seeds
+* blaze_powder
+* blaze_rods
+* bones
+* carrots
+* eggs
+* ender_eyes
+* ender_pearls
+* feathers
+* leather
+* melons
+* potatoes
+* sugar_canes
+* melon_seeds
+* pumpkin
+* pumpkin_seeds
+* wheat_seeds
+* spider_eyes
+* strings
+* sticks
+* sugar
 </details>
 </details>

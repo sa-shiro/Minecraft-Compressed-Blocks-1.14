@@ -14,6 +14,7 @@ public class Lists {
     public final static ArrayList<Float> RESISTANCE = new ArrayList<>();
     public final static ArrayList<Integer> HARVEST_LEVEL = new ArrayList<>();
     public static final ArrayList<BlockFactory> blockList = new ArrayList<>();
+    public static final ArrayList<String> ITEMS = new ArrayList<>();
 
     //------------------------------------------------------------------------------------------------------------------
     // Minecraft Blocks
@@ -349,5 +350,30 @@ public class Lists {
         HARVEST_LEVEL.add(7, 3);
         HARVEST_LEVEL.add(8, 4);
         HARVEST_LEVEL.add(9, 4);
+
+        ITEMS.add("apples");
+        ITEMS.add("arrows");
+        ITEMS.add("beetroots");
+        ITEMS.add("beetroot_seeds");
+        ITEMS.add("blaze_powder");
+        ITEMS.add("blaze_rods");
+        ITEMS.add("bones");
+        ITEMS.add("carrots");
+        ITEMS.add("eggs");
+        ITEMS.add("ender_eyes");
+        ITEMS.add("ender_pearls");
+        ITEMS.add("feathers");
+        ITEMS.add("leather");
+        ITEMS.add("melons");
+        ITEMS.add("potatoes");
+        ITEMS.add("sugar_canes");
+        ITEMS.add("melon_seeds");
+        ITEMS.add("pumpkin");
+        ITEMS.add("pumpkin_seeds");
+        ITEMS.add("wheat_seeds");
+        ITEMS.add("spider_eyes");
+        ITEMS.add("strings");
+        ITEMS.add("sticks");
+        ITEMS.add("sugar");
     }
 }

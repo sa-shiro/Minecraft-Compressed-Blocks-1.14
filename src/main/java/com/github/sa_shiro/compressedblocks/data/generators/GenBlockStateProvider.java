@@ -2,7 +2,7 @@ package com.github.sa_shiro.compressedblocks.data.generators;
 
 import com.github.sa_shiro.compressedblocks.CompressedBlocks;
 import com.github.sa_shiro.compressedblocks.block.BlockFactory;
-import com.github.sa_shiro.compressedblocks.event.RegistryEvent;
+import com.github.sa_shiro.compressedblocks.event.ModRegistryObjects;
 import com.github.sa_shiro.compressedblocks.util.Lists;
 import net.minecraft.block.Block;
 import net.minecraft.block.RotatedPillarBlock;
@@ -27,7 +27,7 @@ public class GenBlockStateProvider extends BlockStateProvider {
         assert false;
 
         for (BlockFactory factory : Lists.blockList) {
-            for (RegistryObject<Block> block : RegistryEvent.BLOCK_REGISTRY) {
+            for (RegistryObject<Block> block : ModRegistryObjects.BLOCK_REGISTRY) {
                 String str = "";
                 for (int i = 0; i <= 9; i++) {
                     if (block.get().getRegistryName().toString().contains("compressedblocks:c" + i)) {

@@ -1,6 +1,6 @@
 package com.github.sa_shiro.compressedblocks.data.generators;
 
-import com.github.sa_shiro.compressedblocks.event.RegistryEvent;
+import com.github.sa_shiro.compressedblocks.event.ModRegistryObjects;
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.block.Block;
@@ -38,14 +38,14 @@ public class GenLootTableProvider extends LootTableProvider {
     public static class CompressedLootTable extends BlockLootTables {
         @Override
         protected void addTables() {
-            for (RegistryObject<Block> block : RegistryEvent.BLOCK_REGISTRY) {
+            for (RegistryObject<Block> block : ModRegistryObjects.BLOCK_REGISTRY) {
                 dropSelf(block.get());
             }
         }
 
         @Override
         protected Iterable<Block> getKnownBlocks() {
-            return RegistryEvent.BLOCKS.getEntries().stream()
+            return ModRegistryObjects.BLOCKS.getEntries().stream()
                     .map(RegistryObject::get)
                     .collect(Collectors.toList());
         }

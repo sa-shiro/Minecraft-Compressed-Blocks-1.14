@@ -158,14 +158,6 @@ public class BlockFactory {
     }
 
     @ParametersAreNonnullByDefault
-    public BlockFactory setCustomTexture(@Nullable String modID, String particle, String side, String end) {
-        hasCustomTexture = true;
-        textureSide = side;
-        textureEnd = end;
-        return setCustomTexture(modID, particle, end, end, side, side, side, side);
-    }
-
-    @ParametersAreNonnullByDefault
     public BlockFactory setCustomTexture(String particle, String down, String up, String north, String south, String east, String west) {
         return setCustomTexture(getTexturePath(), particle, down, up, north, south, east, west);
     }
@@ -181,33 +173,6 @@ public class BlockFactory {
         textureSouth = south;
         textureEast = east;
         textureWest = west;
-        return this;
-    }
-
-    @ParametersAreNonnullByDefault
-    public BlockFactory setCustomTexture(@Nullable String modID, TextureLocation location, String texture) {
-        hasCustomTexture = true;
-        namespace = modID;
-        switch (location) {
-            case DOWN:
-                textureDown = texture;
-            case UP:
-                textureUp = texture;
-            case NORTH:
-                textureNorth = texture;
-            case SOUTH:
-                textureSouth = texture;
-            case EAST:
-                textureEast = texture;
-            case WEST:
-                textureWest = texture;
-            case PARTICLE:
-                textureParticle = texture;
-            case SIDE:
-                textureSide = texture;
-            case END:
-                textureEnd = texture;
-        }
         return this;
     }
 
